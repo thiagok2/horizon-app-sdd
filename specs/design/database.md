@@ -9,11 +9,17 @@ Este documento descreve a estrutura lógica de dados para o sistema de agendamen
 ### **Unidade (Units)**
 Representa os consultórios, clínicas ou laboratórios cadastrados.
 * **ID:** UUID (PK)
-* **Nome:** Stringhttps://github.com/thiagok2/horizon-app-sdd.git
-* **Endereco_Completo:** String
+* **Nome:** String
+* **End_Logradouro:** String
+* **End_Numero:** String
+* **End_Complemento:** String
+* **End_Bairro:** String
+* **End_Cidade:** String
+* **End_Estado:** String
+* **End_CEP:** String
 * **Latitude:** Decimal (10, 8)
 * **Longitude:** Decimal (11, 8)
-* **Telefone:** Stringhttps://github.com/thiagok2/horizon-app-sdd.git
+* **Telefone:** String
 
 ### **Especialidade (Specialties)**
 Catálogo de serviços oferecidos (ex: Cardiologia, Coleta de Sangue).
