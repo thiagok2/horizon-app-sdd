@@ -10,7 +10,13 @@ Este documento descreve a estrutura lógica de dados para o sistema de agendamen
 Representa os consultórios, clínicas ou laboratórios cadastrados.
 * **ID:** UUID (PK)
 * **Nome:** String
-* **Endereco_Completo:** String
+* **End_Logradouro:** String
+* **End_Numero:** String
+* **End_Complemento:** String
+* **End_Bairro:** String
+* **End_Cidade:** String
+* **End_Estado:** String
+* **End_CEP:** String
 * **Latitude:** Decimal (10, 8)
 * **Longitude:** Decimal (11, 8)
 * **Telefone:** String
