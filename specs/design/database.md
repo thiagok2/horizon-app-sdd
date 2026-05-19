@@ -31,7 +31,7 @@ Usuários
 * **ID:** UUID (PK)
 * **Nome:** String
 * **Login:** String(50) NOT NULL, UNIQUE
-* **Senha:** String NOT NULL
+* **Senha_Usuario:** String NOT NULL
 * **Email:** NOT NULL UNIQUE
 * **Data_Nascimento:** Date
 * **Sexo:** Enum (M, F, Outro)
