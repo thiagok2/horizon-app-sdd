@@ -30,6 +30,9 @@ Catálogo de serviços oferecidos (ex: Cardiologia, Coleta de Sangue).
 Usuários 
 * **ID:** UUID (PK)
 * **Nome:** String
+* **Login:** String(50) NOT NULL, UNIQUE
+* **Senha:** String NOT NULL
+* **Email:** NOT NULL UNIQUE
 * **Data_Nascimento:** Date
 * **Sexo:** Enum (M, F, Outro)
 * **End_Logradouro:** String
